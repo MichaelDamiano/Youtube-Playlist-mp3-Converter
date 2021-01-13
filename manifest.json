@@ -20,20 +20,6 @@
   
 	},
 
-	
-	"content_scripts": 
-	[
-{
-      
-		"matches": ["https://www.youtube.com/playlist*"],
-      
-		"js": ["app.js" , "download.js"],
-	    
-		"run_at": "document_end"
-    
-	}
-],
-
 
 	"browser_action": 
 	{
